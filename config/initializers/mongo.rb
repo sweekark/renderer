@@ -1,4 +1,4 @@
-MongoMapper.connection = Mongo::Connection.new('localhost', 27017,:logger => Rails.logger)
+MongoMapper.connection = Mongo::Connection.new('54-251-186-105', 27017,:logger => Rails.logger)
 MongoMapper.database = "traffic"
 
 if defined?(PhusionPassenger)
