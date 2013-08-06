@@ -1,9 +1,8 @@
 source 'http://rubygems.org'
 
-require 'rubygems'
-require 'mongo'
 source 'http://gemcutter.org'
 
+gem 'mongo'
 gem 'thin'
 gem 'rails', '3.2.13'
 gem 'mongo_mapper'
